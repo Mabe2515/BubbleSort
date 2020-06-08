@@ -26,7 +26,11 @@ This is a Program project for LC-3 for class CIS-11.
 
 # How to Use
 
-* The user will be asked to input 8 values ranging from 0-100 in a 3-digit format for sorting. The program will sort the numbers from the lowest value to the highest value and outputs them to the console in ascending order.
+- First, Download the code for LC-3 program down in the link and then make sure you have a simulation to run the program.
+
+- Next, select the program in the simulation and then run the program. The file looks like this Bubblesort.asm
+
+- The user will be asked to input 8 values ranging from 0-100 in a 3-digit format for sorting. The program will sort the numbers from the lowest value to the highest value and outputs them to the console in ascending order.
 
 # Installation
 
@@ -35,6 +39,10 @@ This is a Program project for LC-3 for class CIS-11.
 [GitHub](https://github.com/Mabe2515/BubbleSort)
 
 * This link will send you to GitHub
+
+[PseudoCode](https://github.com/Mabe2515/BubbleSort/blob/master/PseudoCode)
+
+*PseudoCode has not been entered.
 
 [FlowChart](https://github.com/Mabe2515/BubbleSort/blob/master/FLOWCHART%20CIS11.docx)
 
@@ -47,6 +55,8 @@ This is a rought Draft of the program.
 [Program](https://github.com/Mabe2515/BubbleSort/blob/master/BubbleSort.asm)
 
 *This link will send you to the Program for BubbleSort and can be download through this link.
+
+
 
 
 # Developers : Mairo Castro, Raphael Herrera, Victor Pacheco, Mitchell Houser
