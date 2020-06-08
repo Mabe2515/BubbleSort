@@ -33,17 +33,13 @@ This is a Program project for LC-3 for class CIS-11.
 # Links
 
 [GitHub](https://github.com/Mabe2515/BubbleSort)
+* This link will send
 [FlowChart](https://github.com/Mabe2515/BubbleSort/blob/master/FLOWCHART%20CIS11.docx)
 
 [Program](https://github.com/Mabe2515/BubbleSort/blob/master/BubbleSort.asm)
 
-# Download
 
 
-
-
-
-
-# Developers : Mairo Castro, Raphael, Victor, Mitchell
+# Developers : Mairo Castro, Raphael Herrera, Victor Pacheco, Mitchell Houser
 
 # Date: 6/03/2020
