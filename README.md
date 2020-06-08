@@ -38,15 +38,15 @@ This is a Program project for LC-3 for class CIS-11.
 
 [GitHub](https://github.com/Mabe2515/BubbleSort)
 
-* This link will send you to GitHub
+This link will send you to GitHub
 
 [PseudoCode](https://github.com/Mabe2515/BubbleSort/blob/master/PseudoCode)
 
-*PseudoCode has not been entered.
+PseudoCode has not been entered.
 
 [FlowChart](https://github.com/Mabe2515/BubbleSort/blob/master/FLOWCHART%20CIS11.docx)
 
-*This link will send you to the FlowChart and can be download through this link.
+This link will send you to the FlowChart and can be download through this link.
 
 [Rough Draft]()
 
@@ -54,7 +54,7 @@ This is a rought Draft of the program.
 
 [Program](https://github.com/Mabe2515/BubbleSort/blob/master/BubbleSort.asm)
 
-*This link will send you to the Program for BubbleSort and can be download through this link.
+This link will send you to the Program for BubbleSort and can be download through this link.
 
 
 
