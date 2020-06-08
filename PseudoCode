@@ -1,1 +1,272 @@
 
+Program Start
+Input Section:
+1.) Output- Ask user to input 1st digit of the 1st value in a 3-digit format
+2.) Input- 1st digit of 3-digit value
+		2.1) if 1st digit is one, Output- ask 2nd digit
+			2.1.1) Input- if 2nd digit is more than zero, error
+					else, Output- ask 3rd digit
+				2.1.1.1) Input- if 3rd digit is more than zero, error
+							else Multloop
+							Add 10 10 times to store 100 to num1
+		2.2) if 1st digit is zero, Output-  ask 2nd digit
+			2.2.1)Input- if 2nd digit zero, Output- ask 3rd digit
+						Input- 3rd digit
+						Store the number as num1
+			2.2.2)else, ASCII Multloop
+								Add 10 multiple times based on the number entered
+								save that number 
+								Output- ask 3rd digit, add with saved number and store as num1
+		2.3) if 1st digit is more than 1, error
+3.) Output- Ask user to input 1st digit of the 2nd value in a 3-digit format
+4.) Input- 1st digit of 3-digit value
+		4.1) if 1st digit is one, Output- ask 2nd digit
+			4.1.1) Input- if 2nd digit is more than zero, error
+					else, Output- ask 3rd digit
+				4.1.1.1) Input- if 3rd digit is more than zero, error
+							else Multloop
+							Add 10 10 times to store 100 to num1
+		4.2) if 1st digit is zero, Output-  ask 2nd digit
+			4.2.1)Input- if 2nd digit zero, Output- ask 3rd digit
+						Input- 3rd digit
+						Store the number as num1
+			4.2.2)else, ASCII Multloop
+								Add 10 multiple times based on the number entered
+								save that number 
+								Output- ask 3rd digit, add with saved number and store as num2
+		4.3) if 1st digit is more than 1, error
+5.) Output- Ask user to input 1st digit of the 3rd value in a 3-digit format
+6.) Input- 1st digit of 3-digit value
+		6.1) if 1st digit is one, Output- ask 2nd digit
+			6.1.1) Input- if 2nd digit is more than zero, error
+					else, Output- ask 3rd digit
+				6.1.1.1) Input- if 3rd digit is more than zero, error
+							else Multloop
+							Add 10 10 times to store 100 to num1
+		6.2) if 1st digit is zero, Output-  ask 2nd digit
+			6..2.1)Input- if 2nd digit zero, Output- ask 3rd digit
+						Input- 3rd digit
+						Store the number as num1
+			6.2.2)else, ASCII Multloop
+								Add 10 multiple times based on the number entered
+								save that number 
+								Output- ask 3rd digit, add with saved number and store as num3
+		6.3) if 1st digit is more than 1, error
+7.) Output- Ask user to input 1st digit of the 4th value in a 3-digit format
+8.) Input- 1st digit of 3-digit value
+		8.1) if 1st digit is one, Output- ask 2nd digit
+			8.1.1) Input- if 2nd digit is more than zero, error
+					else, Output- ask 3rd digit
+				8.1.1.1) Input- if 3rd digit is more than zero, error
+							else Multloop
+							Add 10 10 times to store 100 to num1
+		8.2) if 1st digit is zero, Output-  ask 2nd digit
+			8.2.1)Input- if 2nd digit zero, Output- ask 3rd digit
+						Input- 3rd digit
+						Store the number as num1
+			8.2.2)else, ASCII Multloop
+								Add 10 multiple times based on the number entered
+								save that number 
+								Output- ask 3rd digit, add with saved number and store as num4
+		8.3) if 1st digit is more than 1, error
+9.) Output- Ask user to input 1st digit of the 5th value in a 3-digit format
+10.) Input- 1st digit of 3-digit value
+		10.1) if 1st digit is one, Output- ask 2nd digit
+			10.1.1) Input- if 2nd digit is more than zero, error
+					else, Output- ask 3rd digit
+				10.1.1.1) Input- if 3rd digit is more than zero, error
+							else Multloop
+							Add 10 10 times to store 100 to num1
+		10.2) if 1st digit is zero, Output-  ask 2nd digit
+			10.2.1)Input- if 2nd digit zero, Output- ask 3rd digit
+						Input- 3rd digit
+						Store the number as num1
+			10.2.2)else, ASCII Multloop
+								Add 10 multiple times based on the number entered
+								save that number 
+								Output- ask 3rd digit, add with saved number and store as num5
+		10.3) if 1st digit is more than 1, error
+11.) Output- Ask user to input 1st digit of the 6th value in a 3-digit format
+12.) Input- 1st digit of 3-digit value
+		12.1) if 1st digit is one, Output- ask 2nd digit
+			12.1.1) Input- if 2nd digit is more than zero, error
+					else, Output- ask 3rd digit
+				12.1.1.1) Input- if 3rd digit is more than zero, error
+							else Multloop
+							Add 10 10 times to store 100 to num1
+		12.2) if 1st digit is zero, Output-  ask 2nd digit
+			12.2.1)Input- if 2nd digit zero, Output- ask 3rd digit
+						Input- 3rd digit
+						Store the number as num1
+			2.2.2)else, ASCII Multloop
+								Add 10 multiple times based on the number entered
+								save that number 
+								Output- ask 3rd digit, add with saved number and store as num6
+		12.3) if 1st digit is more than 1, error
+13.) Output- Ask user to input 1st digit of the 7th value in a 3-digit format
+14.) Input- 1st digit of 3-digit value
+		14.1) if 1st digit is one, Output- ask 2nd digit
+			14.1.1) Input- if 2nd digit is more than zero, error
+					else, Output- ask 3rd digit
+				14.1.1.1) Input- if 3rd digit is more than zero, error
+							else Multloop
+							Add 10 10 times to store 100 to num1
+		14.2) if 1st digit is zero, Output-  ask 2nd digit
+			14.2.1)Input- if 2nd digit zero, Output- ask 3rd digit
+						Input- 3rd digit
+						Store the number as num1
+			14.2.2)else, ASCII Multloop
+								Add 10 multiple times based on the number entered
+								save that number 
+								Output- ask 3rd digit, add with saved number and store as num7
+		14.3) if 1st digit is more than 1, error
+15.) Output- Ask user to input 1st digit of the 8th value in a 3-digit format
+16.) Input- 1st digit of 3-digit value
+		16.1) if 1st digit is one, Output- ask 2nd digit
+			16.1.1) Input- if 2nd digit is more than zero, error
+					else, Output- ask 3rd digit
+				16.1.1.1) Input- if 3rd digit is more than zero, error
+							else Multloop
+							Add 10 10 times to store 100 to num1
+		16.2) if 1st digit is zero, Output-  ask 2nd digit
+			16.2.1)Input- if 2nd digit zero, Output- ask 3rd digit
+						Input- 3rd digit
+						Store the number as num1
+			16.2.2)else, ASCII Multloop
+								Add 10 multiple times based on the number entered
+								save that number 
+								Output- ask 3rd digit, add with saved number and store as num8
+		16.3) if 1st digit is more than 1, error
+		
+Sorting Section:
+17.)while loop- whenever any value is swapped, continue to loop
+	17.1)if 1st value is greater than 2nd, swap
+	17.2)if 2nd value is greater than 3rd, swap
+	17.3)if 3rd value is greater than 4th, swap
+	17.4)if 4th value is greater than 5th, swap
+	17.5)if 5th value is greater than 6th, swap
+	17.6)if 6th value is greater than 7th, swap
+	17.7)if 7th value is greater than 8th, swap
+
+Display Section:
+18.) Load num1
+	18.1) If 1st digit is 1, output 100
+	18.2) If 1st digit is zero, output 1st digit as zero
+		18.2.1)If 2nd digit is zero, output 2nd digit as zero
+						ASCII convert the third digit and output as the 3rd digit
+		18.2.2) else Divideloop
+						Divide the value by 10 until it returns a negative
+						18.2.2.1)If division result in 0, 
+											ASCII convert the 2nd digit based on the number of times the second digit was divided
+											Output- the 2nd digit 
+											Output 3rd digit as zero
+						18.2.2.2)else Put back 10 
+											ASCII convert the 2nd digit based on the number of times the second digit was divided
+											Output- the 2nd digit 
+											ASCII Convert the remainder and output as the 3rd digit	
+19.) Load num2
+	19.1) If 1st digit is 1, output 100
+	19.2) If 1st digit is zero, output 1st digit as zero
+		19.2.1)If 2nd digit is zero, output 2nd digit as zero
+						ASCII convert the third digit and output as the 3rd digit
+		19.2.2) else Divideloop
+						Divide the value by 10 until it returns a negative
+						19.2.2.1)If division result in 0, 
+											ASCII convert the 2nd digit based on the number of times the second digit was divided
+											Output- the 2nd digit 
+											Output 3rd digit as zero
+						19.2.2.2)else Put back 10 
+											ASCII convert the 2nd digit based on the number of times the second digit was divided
+											Output- the 2nd digit 
+											ASCII Convert the remainder and output as the 3rd digit
+20.) Load num3
+	20.1) If 1st digit is 1, output 100
+	20.2) If 1st digit is zero, output 1st digit as zero
+		20.2.1)If 2nd digit is zero, output 2nd digit as zero
+						ASCII convert the third digit and output as the 3rd digit
+		20.2.2) else Divideloop
+						Divide the value by 10 until it returns a negative
+						20.2.2.1)If division result in 0, 
+											ASCII convert the 2nd digit based on the number of times the second digit was divided
+											Output- the 2nd digit 
+											Output 3rd digit as zero
+						20.2.2.2)else Put back 10 
+											ASCII convert the 2nd digit based on the number of times the second digit was divided
+											Output- the 2nd digit 
+											ASCII Convert the remainder and output as the 3rd digit
+21.) Load num4
+	21.1) If 1st digit is 1, output 100
+	21.2) If 1st digit is zero, output 1st digit as zero
+		21.2.1)If 2nd digit is zero, output 2nd digit as zero
+						ASCII convert the third digit and output as the 3rd digit
+		21.2.2) else Divideloop
+						Divide the value by 10 until it returns a negative
+						21.2.2.1)If division result in 0, 
+											ASCII convert the 2nd digit based on the number of times the second digit was divided
+											Output- the 2nd digit 
+											Output 3rd digit as zero
+						21.2.2.2)else Put back 10 
+											ASCII convert the 2nd digit based on the number of times the second digit was divided
+											Output- the 2nd digit 
+											ASCII Convert the remainder and output as the 3rd digit
+22.) Load num5
+	22.1) If 1st digit is 1, output 100
+	22.2) If 1st digit is zero, output 1st digit as zero
+		22.2.1)If 2nd digit is zero, output 2nd digit as zero
+						ASCII convert the third digit and output as the 3rd digit
+		22.2.2) else Divideloop
+						Divide the value by 10 until it returns a negative
+						22.2.2.1)If division result in 0, 
+											ASCII convert the 2nd digit based on the number of times the second digit was divided
+											Output- the 2nd digit 
+											Output 3rd digit as zero
+						22.2.2.2)else Put back 10 
+											ASCII convert the 2nd digit based on the number of times the second digit was divided
+											Output- the 2nd digit 
+											ASCII Convert the remainder and output as the 3rd digit
+23.) Load num6
+	23.1) If 1st digit is 1, output 100
+	23.2) If 1st digit is zero, output 1st digit as zero
+		23.2.1)If 2nd digit is zero, output 2nd digit as zero
+						ASCII convert the third digit and output as the 3rd digit
+		23.2.2) else Divideloop
+						Divide the value by 10 until it returns a negative
+						23.2.2.1)If division result in 0, 
+											ASCII convert the 2nd digit based on the number of times the second digit was divided
+											Output- the 2nd digit 
+											Output 3rd digit as zero
+						23.2.2.2)else Put back 10 
+											ASCII convert the 2nd digit based on the number of times the second digit was divided
+											Output- the 2nd digit 
+											ASCII Convert the remainder and output as the 3rd digit
+24.) Load num7
+	24.1) If 1st digit is 1, output 100
+	24.2) If 1st digit is zero, output 1st digit as zero
+		24.2.1)If 2nd digit is zero, output 2nd digit as zero
+						ASCII convert the third digit and output as the 3rd digit
+		24.2.2) else Divideloop
+						Divide the value by 10 until it returns a negative
+						24.2.2.1)If division result in 0, 
+											ASCII convert the 2nd digit based on the number of times the second digit was divided
+											Output- the 2nd digit 
+											Output 3rd digit as zero
+						24.2.2.2)else Put back 10 
+											ASCII convert the 2nd digit based on the number of times the second digit was divided
+											Output- the 2nd digit 
+											ASCII Convert the remainder and output as the 3rd digit
+25.) Load num8
+	25.1) If 1st digit is 1, output 100
+	25.2) If 1st digit is zero, output 1st digit as zero
+		25.2.1)If 2nd digit is zero, output 2nd digit as zero
+						ASCII convert the third digit and output as the 3rd digit
+		25.2.2) else Divideloop
+						Divide the value by 10 until it returns a negative
+						25.2.2.1)If division result in 0, 
+											ASCII convert the 2nd digit based on the number of times the second digit was divided
+											Output- the 2nd digit 
+											Output 3rd digit as zero
+						25.2.2.2)else Put back 10 
+											ASCII convert the 2nd digit based on the number of times the second digit was divided
+											Output- the 2nd digit 
+											ASCII Convert the remainder and output as the 3rd digit
+End Program
