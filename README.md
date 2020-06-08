@@ -30,7 +30,7 @@ This is a Program project for LC-3 for class CIS-11.
 
 # Links
 
-[GitHub](https://github.com/Mabe2515/BubbleSort/edit/master/README.md)
+[GitHub](https://github.com/Mabe2515/BubbleSort)
 * Links does not work yet.
 
 [Program](https://github.com/Mabe2515/BubbleSort/edit/master/README.md)
