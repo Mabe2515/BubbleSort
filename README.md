@@ -12,6 +12,8 @@ This is a Program project for LC-3 for class CIS-11.
 
 - [Links]()
 
+- [Download]()
+
 - [Developers]()
 
 - [Date]()
@@ -31,11 +33,11 @@ This is a Program project for LC-3 for class CIS-11.
 # Links
 
 [GitHub](https://github.com/Mabe2515/BubbleSort)
-[FlowChart]()
+[FlowChart](https://github.com/Mabe2515/BubbleSort/blob/master/FLOWCHART%20CIS11.docx)
 
 [Program](https://github.com/Mabe2515/BubbleSort/blob/master/BubbleSort.asm)
 
-
+# Download
 
 
 
