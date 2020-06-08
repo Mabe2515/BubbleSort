@@ -1,6 +1,6 @@
 # BubbleSort
 
-This is a Program project for Lc-3 for class Cis-11.
+This is a Program project for LC-3 for class CIS-11.
 
 # Table of Contents
 
