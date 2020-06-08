@@ -1,7 +1,6 @@
-
 .ORIG x3000
 ;INPUT SECTION
-;===========================================================================
+
 INPUT1											;Ask for the first digit to sort
 	LD R5, HEXN30						;ASCII Offset
 	LD R3, MC1								;Multiply counter for value 100
@@ -97,13 +96,11 @@ BR INPUT2										;Jump to INPUT2 for the 2nd value
 NUM1 		.FILL X3200				;temporary storage for value input
 MC1			.FILL #0010				;Multiply Counter 10
 HEXN30 .FILL xFFD0 					;-30 HEX
-PROMPT .STRINGZ "Please enter values in three digit form for sorting:"
+PROMPT .STRINGZ "Please enter 8 values in three digit form for sorting:"
 NI1	.STRINGZ  "\nInput the 1st number in three digits (Enter 1st digit): "
 NI2	.STRINGZ  "\nInput the 1st number in three digits (Enter 2nd digit): "
 NI3	.STRINGZ  "\nInput the 1st number in three digits (Enter 3rd digit): "
 
-;Input2
-;==================================================================================
 INPUT2											;Ask for the first digit to sort
 	LD R3, MC2								;Multiply counter for value 100
 	LD R6, NUM2								;Load address of NUM1
@@ -198,8 +195,6 @@ TWONI1	.STRINGZ  "\nInput the 2nd number in three digits (Enter 1st digit): "
 TWONI2	.STRINGZ  "\nInput the 2nd number in three digits (Enter 2nd digit): "
 TWONI3	.STRINGZ  "\nInput the 2nd number in three digits (Enter 3rd digit): "
 
-;Input3
-;==================================================================================
 INPUT3											;Ask for the first digit to sort
 	LD R3, MC3								;Multiply counter for value 100
 	LD R6, NUM3								;Load address of NUM1
@@ -293,10 +288,6 @@ MC3			.FILL #0010				;Multiply Counter 10
 THREENI1	.STRINGZ  "\nInput the 3rd number in three digits (Enter 1st digit): "
 THREENI2	.STRINGZ  "\nInput the 3rd number in three digits (Enter 2nd digit): "
 THREENI3	.STRINGZ  "\nInput the 3rd number in three digits (Enter 3rd digit): "
-
-
-;Input4
-;==================================================================================
 
 INPUT4											;Ask for the first digit to sort
 	LD R3, MC4								;Multiply counter for value 100
@@ -392,9 +383,6 @@ FOURNI1	.STRINGZ  "\nInput the 4th number in three digits (Enter 1st digit): "
 FOURNI2	.STRINGZ  "\nInput the 4th number in three digits (Enter 2nd digit): "
 FOURNI3	.STRINGZ  "\nInput the 4th number in three digits (Enter 3rd digit): "
 
-
-;Input5
-;==================================================================================
 INPUT5											;Ask for the first digit to sort
 	LD R3, MC5								;Multiply counter for value 100
 	LD R6, NUM5								;Load address of NUM1
@@ -489,8 +477,6 @@ FIVENI1	.STRINGZ  "\nInput the 5th number in three digits (Enter 1st digit): "
 FIVENI2	.STRINGZ  "\nInput the 5th number in three digits (Enter 2nd digit): "
 FIVENI3	.STRINGZ  "\nInput the 5th number in three digits (Enter 3rd digit): "
 
-;Input6
-;==================================================================================
 INPUT6											;Ask for the first digit to sort
 	LD R3, MC6							;Multiply counter for value 100
 	LD R6, NUM6								;Load address of NUM1
@@ -585,9 +571,6 @@ SIXNI1	.STRINGZ  "\nInput the 6th number in three digits (Enter 1st digit): "
 SIXNI2	.STRINGZ  "\nInput the 6th number in three digits (Enter 2nd digit): "
 SIXNI3	.STRINGZ  "\nInput the 6th number in three digits (Enter 3rd digit): "
 
-
-;Input7
-;==================================================================================
 INPUT7											;Ask for the first digit to sort
 	LD R3, MC7								;Multiply counter for value 100
 	LD R6, NUM7								;Load address of NUM1
@@ -682,12 +665,10 @@ SEVENNI1	.STRINGZ  "\nInput the 7th number in three digits (Enter 1st digit): "
 SEVENNI2	.STRINGZ  "\nInput the 7th number in three digits (Enter 2nd digit): "
 SEVENNI3	.STRINGZ  "\nInput the 7th number in three digits (Enter 3rd digit): "
 
-;Input8
-;==================================================================================
 INPUT8											;Ask for the first digit to sort
 	LD R3, MC8								;Multiply counter for value 100
 	LD R6, NUM8								;Load address of NUM1
-	LEA R0, EIGTHNI1					;Ask user to input the first value of a 3 digit number
+	LEA R0, EIGHTNI1					;Ask user to input the first value of a 3 digit number
 	PUTS												;display question
 	GETC												;ask to input 1st digit of  value
 	ADD R1, R0, R5						;copy to R1 and add ASCII Offset
@@ -706,7 +687,7 @@ INPUT8											;Ask for the first digit to sort
 	HALT											;Halt if value is more than 100s value is more than 1
 															;Second Value Check
 VIIIV2D1
-	LEA R0, EIGTHNI2					;Ask user to input the second value of a 3 digit number
+	LEA R0, EIGHTNI2					;Ask user to input the second value of a 3 digit number
 	PUTS												;display question
 	GETC												;ask to input 2nd digit of value
 	AND R1, R1, #0							;CLEAR R1
@@ -719,7 +700,7 @@ VIIIV2D1
 	BRz VIIIV3D1								;Continue to ask third digit
 	HALT											;Halt if 2nd digit is more than 0 for the 10s value of 100
 	VIIIV3D1											;Third Digit Check, input should be 0 anything else is error
-	LEA R0, EIGTHNI3						;Ask user to input the third value of a 3 digit number
+	LEA R0, EIGHTNI3						;Ask user to input the third value of a 3 digit number
 	PUTS												;display question
 	GETC												;ask to input 3rd digit of  value
 	AND R1, R1, #0							;CLEAR R1
@@ -739,7 +720,7 @@ Multloop15										;Create value 100 by 10 x 10. Multiply Loop.
 	BRz SKIP8									;If MC is zero, move to SKIP4
 
 VIIIV2D2
-	LEA R0, EIGTHNI2					;Ask user to input the second value of a 3 digit number, value can be 0-9
+	LEA R0, EIGHTNI2					;Ask user to input the second value of a 3 digit number, value can be 0-9
 	PUTS												;value is in the 10s so # times 10.
 	GETC												;ask to input 2nd digit of value
 	AND R1, R1, #0							;CLEAR R1
@@ -758,7 +739,7 @@ VIIIV2D2
 	ADD R4, R2, #0						;Copy R2 to R4 for later to add with 3rd value ex. 30+9
 
 VIIIV3D2
-	LEA R0, EIGTHNI3					;Ask user to input the third value of a 3 digit number, value can be 0-9
+	LEA R0, EIGHTNI3					;Ask user to input the third value of a 3 digit number, value can be 0-9
 	PUTS												;value is in the 1s so just add with second value ex. 0 + 9 = 9.
 	GETC												;ask to input 3rd digit of 1st value
 	AND R1, R1, #0							;CLEAR R1
@@ -774,10 +755,9 @@ HALT
 
 NUM8 		.FILL X3207				;temporary storage for value input
 MC8			.FILL #0010				;Multiply Counter 10
-EIGTHNI1	.STRINGZ  "\nInput the 8th number in three digits (Enter 1st digit): "
-EIGTHNI2	.STRINGZ  "\nInput the 8th number in three digits (Enter 2nd digit): "
-EIGTHNI3	.STRINGZ  "\nInput the 8th number in three digits (Enter 3rd digit): "
+EIGHTNI1	.STRINGZ  "\nInput the 8th number in three digits (Enter 1st digit): "
+EIGHTNI2	.STRINGZ  "\nInput the 8th number in three digits (Enter 2nd digit): "
+EIGHTNI3	.STRINGZ  "\nInput the 8th number in three digits (Enter 3rd digit): "
 
 ;END OF INPUT SECTION
-;==============================================================================
 .END
