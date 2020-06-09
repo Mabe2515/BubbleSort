@@ -8,8 +8,6 @@ This is a Program project for LC-3 for class CIS-11.
 
 - [How to Use]()
 
-- [Installation]()
-
 - [Links]()
 
 - [Download]()
@@ -32,13 +30,16 @@ This is a Program project for LC-3 for class CIS-11.
 
 - The user will be asked to input 8 values ranging from 0-100 in a 3-digit format for sorting. The program will sort the numbers from the lowest value to the highest value and outputs them to the console in ascending order.
 
-# Installation
 
 # Links
 
 [GitHub](https://github.com/Mabe2515/BubbleSort)
 
-This link will send you to GitHub
+This link will send you to GitHub.
+
+[Documentiations](https://github.com/Mabe2515/BubbleSort/blob/master/CIS11%20Course%20Project%20Part%201%20PROJECT%20DOCUMENTATION.docx)
+
+This is the documentation link.
 
 [PseudoCode](https://github.com/Mabe2515/BubbleSort/blob/master/PseudoCode)
 
